@@ -1,0 +1,264 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+
+}
+body{background-color:bisque;}
+
+nav{
+    width:100%;
+    height:70px;
+    background-color: black;
+   
+}
+/*  this is for the crystal heading*/
+nav p{font-family:arial;
+color:white;
+font-size:28px;
+padding-top:28px;
+line-height:55px;
+float:left;
+padding:0px 10px;
+
+}
+
+nav ul {float:left;
+   padding-left:600px;
+
+}
+
+nav ul li {
+   float:left;
+   list-style:none;
+   position:relative;
+}
+
+nav ul li a {
+   display:block;
+   font-family:arial;
+color:white;
+font-size:14px;
+padding:0px 40px;
+text-decoration:none;
+
+}
+nav ul li ul {
+
+   display:none;
+   position:absolute;
+   background-color:black;
+   padding: 10px;
+   border-radius: 0px 0px 8px 8px ;
+
+}
+nav ul li:hover ul {
+   display: block;
+}
+nav ul li ul li a {
+   padding: 8px 14px;
+}
+nav ul li ul li{
+   width: 180px;
+   border-radius: 4px;
+}
+nav ul li ul li a:hover{
+   background-color:grey;
+}
+a.active , a:hover{
+   background:grey;
+   transition:.5s;
+   border-radius:18px;
+   
+}
+
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+   padding-right: 220px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+form{border-style:solid;
+    background:#88B8C5FC;
+    align-content: center;
+    padding: 10px;
+    padding-right: 30px;
+    width: 50%;
+}
+.floater{
+    float: left;
+}
+input{outline:none;
+    padding:10px;
+    width: 100%;
+    border:1px solid #454549FC;
+    border-radius:5px;
+    color:#858798;
+    background:white;
+}
+input ::placeholder{color:white;
+font-weight:bold;
+    font-size:10pt;
+}
+label{font-size:15pt;}
+#btn{width:25%;}
+#sub{background:#545772FC;
+    outline:none;
+    border:none;
+    color:white;
+    border-radius:3px;
+}
+
+
+
+
+
+
+
+
+/*html,body{height:100%;}
+#container{min-height:100%;}
+#main{overflow: auto;
+padding-bottom: 200px;}*/
+p3{font-weight:lighter;
+    font-size:30px;
+    text-align:left;
+}
+img{
+    width:100%;
+    max-height: 450px;
+    display:flex;
+    
+}
+.image-container{margin:0 auto;
+    width:45%;
+    display: inline-block;
+    box-shadow:0 15px 20px;
+    margin-bottom:20px;
+    margin-left: 50px;
+}
+.image-description{padding:0 15px 15px 15px;
+    text-align:center;
+    font-weight:bolder;
+    text-shadow:-2px 0px #860A90;
+    color:#0A7690;
+}
+footer{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display:-ms-flex;
+    display:-0-flex;
+    display:-flex;
+    flex-flow:wrap;
+    color:#fff;
+    background-color:#011c39;
+
+}
+.footer > *{flex: 1 100%;
+}
+footer-left{margin-right:1.25em;
+margin-bottom:2em;
+}
+.footer-left img{
+    width:50%;
+
+}
+h2{font-weight:600;
+font-size:17px;
+}
+.footer ul {list-style:none;
+padding-left:0;
+}
+footer li
+{line-height:2em;
+}
+.footer a {
+    text-decoration:none;
+
+}
+.footer-right{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display:-ms-flex;
+    display:-0-flex;
+    display:-flex;
+    flex-flow:row wrap;
+
+}
+.footer-right > * {flex: 1 50%;
+margin-right:1.25em;
+}
+.box a {
+    color: #999;
+
+}
+footer-bottom{
+    text-align: center;
+    color:#999;
+    padding-top:50px;
+
+}
+
+.button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0px;
+    background: white;
+    border: 0px;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+}
+
+.button:hover{
+    background-color: chocolate;
+    color: cornsilk;
+}
+
+
+footer-left p{padding-right:20%;
+color: #999;
+}
+socials a {background:#364a62;
+width:40px;
+height:40px;
+display:inline-block;
+margin-right:10px;
+}
+socials a i {color: #e7f2f4;
+padding:10px 12px;
+font-size:20px;
+
+}
+
+
+@media screen  and  (min-width:600px){.footer-right > *{flex:1;
+}
+   .footer-left{flex:1 0 px;
+} 
+.footer-right{flex:2 0 px;
+} 
+}
+
+.footer{
+    bottom: 0ex;
+    position: relative;
+}
+
+@media(max-width:600px){
+    .footer{padding:15px;
+    }
+    main{font-size: 55px;
+    }
+}
+

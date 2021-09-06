@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Products.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <div id='container'>
+        <div id="main">
+            <nav>
+                <p>CRYSTAL ESTABLISHMENTS LIMITED.</p>
+                <ul>
+                    <li><a href="#index.html">Home</a></li>
+                    <li><a href="Products.html">Products</a>
+                        <ul>
+                            
+                            <li><a href="Undercoat White.html">Undercoat White</a></li>
+                            <li><a href="Weather guard.html">Weather guard</a></li> 
+                            <li><a href="Silk Vinyl.html">Silk Vinyl</a></li>
+                            <li><a href="Ruff n' Tuff.html">Ruff n' Tuff</a></li>
+                            
+                            
+                        </ul>
+                    </li>
+                    <li><a href="About us.html">About us</a></li>
+                    <li><a href="#">Cart</a></li>
+                </ul>
+                
+            </nav>
+            
+            <div id='container'>
+                <div id="main">
+                    <p3>
+                        <br> When was paint invented? Tens of thousands of years ago,</br>
+                        clever humans discovered that combining colored earth with a 
+                        sticky liquid resulted in something that could be used to make
+                        a mark. ... With
+                        advances in technology, </br>materials could now 
+                        be imported from all over Europe and Asia to make paint and decorate temples.
+                    </p3>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div class="image-container">
+            <img src="all.jpg"/>
+            <p class="image-description">All sizes of weather guard, silk vinyl showen above.</p>
+        </div>
+        <div class="image-container">
+            <img src="silk vinyl.jpg"> 
+            <p class="image-description">4L silk vinyl.</p>
+        </div>
+        <div class="image-container"><img src="weatherguard.jpg">
+            <p class="image-description">4L weatherguard.</p>
+        </div>
+        <div class="image-container">
+            <img src="background.jpg">
+            <p class="image-description">all products shown.</p>
+        </div>
+        
+    </div>
+</div>
+<p>would you love to order some paint? <br> Please fill the form below.</p>
+<br>
+<center>
+    <form method="POST" id="myform">
+        <br><label for="demo" class="floater">Full Name</label>
+        <br><input type="text" id="demo" placeholder="name"/>
+        <br><label for="weko" class="floater">District Name</label>
+        <br><input type="text" id="weko"placeholder="district"/>
+        <br><label for="pec" class="floater">Country</label> 
+        <br><input type ="text" id ="pec"placeholder="country name.. "/>
+        <br><label for="ray" class="floater">Type of paint </label>
+        <br><input type="text" id="ray" placeholder="Paint type here... "/>
+        <br> <label for="dra" class="floater">Contacts</label>
+        <br><input type="number" id="dra" />
+        <br> <input type="submit" onclick="submit()" value="subit form" class="button">
+    </center>
+</div>
+<!--footer-->
+<footer class="footer">
+    
+    <div class="footer-left">
+        <img src="logo.png" alt="">
+        <p id="york">Crystal Establishments limited is a company that manufactures high quality paint. 
+            Types of paint include Undercoat White, Silk Vinyl, Weatherguard and Ruff n' Tuff . 
+            Suitable for interior use on all normal interior wall and ceiling surfaces. 
+        </p>
+        <div class="footer-section about">
+            <div class="socials">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            
+            <ul class="footer-right">
+                <li>
+                    <h2>PRODUCTS</h2>
+                    <ul class="box">
+                        <li><a href="#">Undercoat White</a></li>
+                        <li><a href="#">Weatherguard</a></li>
+                        <li><a href="#">Silk Vinyl</a></li>    
+                        
+                    </ul>
+                </li>
+                
+                <li class="features">
+                    <h2>useful links</h2>
+                </li>
+                <ul>
+                    <li><a href="#">Events</li></a>
+                    <li> <a href="#">Team</li></a>
+                    <li> <a href="#">Mentores</li></a>
+                    <li> <a href="#">Gallery</li></a>
+                    <li> <a href="#"><li>Terms & Conditions</li></a>
+                </ul>
+            </li>
+            
+            <li>
+                <h2>PRODUCTS</h2>
+                <ul class="box">
+                    <li><a href="#">Mbarar, Uganda 98</a></li>
+                    <li><a href="#">south-Western, Ankole</a></li>
+                    <li><a href="#">Uganda</a></li>    
+                    
+                </ul>
+            </li>
+            
+        </ul>
+        
+    </div>
+    
+    
+</div>
+<div class="footer-bottom"><p>All Right Reserved
+    by &copy;   Crystalpaints 2018</p>
+    
+</div>
+</footer>
+<!---//FOOTER END-->
+</body>
+</html>
+
+<script>
+
+    function submit(){
+    document.getElementById('myform').addEventListener('submit', function (e) {
+        e.preventDefault()
+        alert("You have submitted the form successfully")
+    })
+}
+</script>
